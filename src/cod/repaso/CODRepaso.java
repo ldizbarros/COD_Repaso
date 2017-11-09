@@ -10,7 +10,9 @@ public class CODRepaso {
         System.out.println("Introduce tu nombre :)");
         String nombre = sc.next();
         
-        System.out.println("Hola "+nombre);
+        Persona p1 = new Persona(nombre);
+        
+        System.out.println("Hola "+p1.getNombre());
     }
     
 }
