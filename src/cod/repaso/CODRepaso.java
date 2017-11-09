@@ -9,10 +9,15 @@ public class CODRepaso {
         
         System.out.println("Introduce tu nombre :)");
         String nombre = sc.next();
+        System.out.println("Introduce tu edad :)");
+        int edad = sc.nextInt();
         
-        Persona p1 = new Persona(nombre);
+        Persona p1 = new Persona(nombre, edad);
+        
         
         System.out.println("Hola "+p1.getNombre());
+        
+        p1.cumpleaños(edad, nombre);
     }
     
 }
