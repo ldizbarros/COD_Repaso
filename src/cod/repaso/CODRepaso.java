@@ -15,6 +15,7 @@ public class CODRepaso {
         Persona p1 = new Persona(nombre, edad);
         
         
+        p1.saludo(p1.getNombre());
         System.out.println("Hola "+p1.getNombre());
         
         p1.cumpleaños(edad, nombre);
